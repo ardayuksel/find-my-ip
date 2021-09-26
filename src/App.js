@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from "react";
+import "./css/reset.css";
+import "./css/App.css";
+import gif from "./assets/loading.gif";
+import axios from "axios";
 
 function App() {
+  const [ip, setIP] = useState(null);
+  const [city, setCity] = useState("");
+  const API_URL = "https://geolocation-db.com/json/";
+
+  const getData = async () => {
+    const res = await axios.get(API_URL);
+    setIP(res.data.IPv4);
+    setCity(res.data.city);
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {ip === null ? (
+        <img src={gif} alt="loading" />
+      ) : (
+        <h1>
+          Your IP Address: <span>{ip}</span>
+        </h1>
+      )}
+      <h2>{city}</h2>
     </div>
   );
 }

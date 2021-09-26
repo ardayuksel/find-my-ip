@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Brawler&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-size: 0px;
+  line-height: 0;
+}
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(../assets/world_map.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1,
+h2 {
+  font-family: "Brawler", serif;
+  text-align: center;
+  max-width: 80%;
+}
+h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+h2 {
+  font-size: 36px;
+  text-decoration: underline;
+  color: rgba(206, 24, 24, 0.452);
+}
+span {
+  color: rgba(0, 136, 255, 0.829);
+}
