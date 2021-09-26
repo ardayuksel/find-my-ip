@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/find-my-ip/static/css/main.a617e044.chunk.css",
+    "main.js": "/find-my-ip/static/js/main.9ed828bb.chunk.js",
+    "main.js.map": "/find-my-ip/static/js/main.9ed828bb.chunk.js.map",
+    "runtime-main.js": "/find-my-ip/static/js/runtime-main.aea4e602.js",
+    "runtime-main.js.map": "/find-my-ip/static/js/runtime-main.aea4e602.js.map",
+    "static/js/2.54571169.chunk.js": "/find-my-ip/static/js/2.54571169.chunk.js",
+    "static/js/2.54571169.chunk.js.map": "/find-my-ip/static/js/2.54571169.chunk.js.map",
+    "static/js/3.ddeb38f4.chunk.js": "/find-my-ip/static/js/3.ddeb38f4.chunk.js",
+    "static/js/3.ddeb38f4.chunk.js.map": "/find-my-ip/static/js/3.ddeb38f4.chunk.js.map",
+    "index.html": "/find-my-ip/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/find-my-ip/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.54571169.chunk.js.LICENSE.txt": "/find-my-ip/static/js/2.54571169.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/find-my-ip/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aea4e602.js",
+    "static/js/2.54571169.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.9ed828bb.chunk.js"
+  ]
+}
